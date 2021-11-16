@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    background: url(img/spotify-hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+    .hero {
+        background-position: center;
+        background-size: cover;
+        padding: 40px 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-title {
+        
+        background: url(img/pattern3.png) #1DB954;
+        background-repeat: repeat;
+        background-size: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .card-title h1{
+        margin: 0px;
+    }
+
+    .hero h1 {
+        text-align: center;
+        color: #fff;
+     }
+
+     .calculator-card {
+         height: auto;
+         width: 75%;
+         background-color: #121212;
+         border-radius: 20px;
+         
+     }
+
+     .card-body {
+        display: grid;
+        grid-template-columns: 49.5% 2px 49.5%;
+        padding: 5%;
+        justify-content: center;
+     }
+
+     .rev {
+        font-size: 50px;
+    }
+
+     .side-one{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        padding: 0px 5%;
+     }
+     .side-two{
+         background-color: #1DB954;
+     }
+     .side-three{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 5%;
+     }
+
+     h4 {
+         color: #fff;
+         margin: 0px;
+     }
+
+     form {
+        width: 85%;
+     }
+
+     input {
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 9px;
+        height: 50px;
+        display: block;
+        width: 100%;
+     }
+
+     button {
+         display: block;
+         width: 100%;
+         margin-top: 10px;
+         background-color: #1DB954;
+         text-transform: capitalize;
+         color: #fff;
+         height: 30px;
+         border: none;
+         border-radius: 10px;
+         height: 48px;
+         font-size: 16px;
+         font-weight: bold;
+         letter-spacing: 2px;
+
+     }
+
+
+     @media only screen and (max-width: 600px) {
+        .hero {
+            padding: 0px;
+        }
+
+        .hero h1 {
+            font-size: 30px;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        .rev {
+            font-size: 25px;
+        }
+
+        h4 {
+            text-align: center;
+        }
+        .card-body {
+            display: grid;
+            display: flex;
+            flex-direction: column;
+         }
+
+      }
